@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/grey"
+              android:paddingTop="@dimen/_25sdp"
+              android:paddingBottom="@dimen/_25sdp"
+              android:paddingStart="@dimen/_5sdp"
+
+>
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+    android:textColor="@color/white"
+    android:textSize="@dimen/_16ssp"
+              android:layout_weight="1"
+              android:id="@+id/text"
+              android:layout_marginStart="@dimen/_15sdp"
+              tools:text="I can’t talk, but this app talks for me."
+    />
+    <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_more_vertical"
+            android:layout_weight="3"
+            android:background="?android:selectableItemBackground"
+            android:id="@+id/popup_menu"
+            android:layout_gravity="center|right"
+
+
+
+    />
+
+</LinearLayout>

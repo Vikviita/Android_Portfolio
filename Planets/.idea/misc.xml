@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/drawable/arrow.xml" value="0.1435" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/drawable/bar.xml" value="0.1095" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/drawable/bottom_sheet.xml" value="0.1095" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/drawable/chevron.xml" value="0.1435" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/drawable/chevron_left.xml" value="0.1435" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/drawable/hint.xml" value="0.1435" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/drawable/home.xml" value="0.12" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/drawable/profile.xml" value="0.1435" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/drawable/search.xml" value="0.1435" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/drawable/searchicon.xml" value="0.1435" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/layout/action_bar.xml" value="0.24895833333333334" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/layout/activity_info.xml" value="0.1674641148325359" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/layout/activity_planets.xml" value="0.1936725096194955" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/layout/pattern.xml" value="0.4" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/layout/pattern_all.xml" value="0.20521590423257802" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/layout/pattern_planets.xml" value="0.4" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/menu/back.xml" value="0.21633176571184268" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/menu/main.xml" value="0.1234375" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Planets/app/src/main/res/menu/navbar.xml" value="0.21633176571184268" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

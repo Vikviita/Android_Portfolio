@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Planets</string>
+    <string name="lets">Let\'s Start</string>
+    <string name="search_hint">Search for more planets</string>
+    <string name="all">all</string>
+    <string name="planets">Planets</string>
+    <string name="stars">stars</string>
+    <string name="messier">Messier</string>
+</resources>

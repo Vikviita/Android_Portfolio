@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@android:color/transparent">
+    <FrameLayout
+            android:layout_width="238dp"
+            android:layout_height="238dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497" android:background="@drawable/search"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/frameLayout">
+    </FrameLayout>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/sun_all"
+            android:id="@+id/imageType"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout"
+            app:layout_constraintBottom_toBottomOf="@+id/frameLayout" android:layout_marginBottom="107dp"
+            android:scaleType="fitCenter" android:paddingTop="10dp"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/chevron" android:id="@+id/imageButton2"
+            app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout" app:layout_constraintTop_toBottomOf="@+id/imageType"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+            android:background="@android:color/transparent" android:layout_marginStart="55dp"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout"
+            app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+            app:layout_constraintTop_toBottomOf="@+id/imageType" android:layout_marginStart="23dp"
+            android:id="@+id/linearLayout2">
+        <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/name" android:textColor="@color/white"
+                android:textStyle="bold" android:autoSizeMaxTextSize="32sp"
+                android:autoSizeMinTextSize="20sp" android:textSize="20sp" android:layout_marginBottom="8dp"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/def" android:textSize="15sp"
+                android:textColor="@color/white"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

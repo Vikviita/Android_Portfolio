@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="butW">@dimen/_67sdp</dimen>
+    <dimen name="marge">@dimen/_10sdp</dimen>
+    <dimen name="text">@dimen/_20ssp</dimen>
+    <dimen name="text1">@dimen/_30ssp</dimen>
+    <dimen name="text3">@dimen/_50ssp</dimen>
+</resources>

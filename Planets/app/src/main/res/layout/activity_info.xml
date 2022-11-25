@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Info"
+        android:background="@color/black">
+
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+               android:src="@drawable/sun_info"
+               android:id="@+id/imageView" app:layout_constraintEnd_toEndOf="parent"
+               android:layout_gravity="center"
+    />
+    <FrameLayout
+            android:id="@+id/sheet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bottom_sheet"
+            app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+
+
+    >
+        <LinearLayout android:layout_width="93dp"
+                      android:layout_height="5dp"
+                      android:layout_gravity="center|top"
+                      android:background="@drawable/bar"
+                      android:layout_margin="17dp"
+        />
+
+          <WebView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_margin="28dp"
+                  android:id="@+id/web"
+
+          />
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

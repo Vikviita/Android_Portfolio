@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="name_arr">
+        <item>Sun</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Moon</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="def_arr">
+        <item>YellowDwarf</item>
+        <item>Planet</item>
+        <item>Planet</item>
+        <item>Planet</item>
+        <item>Earth\'s Satellite</item>
+        <item>Planet</item>
+        <item>Planet</item>
+        <item>Planet</item>
+    </string-array>
+
+    <array name="image_arr">
+        <item>@drawable/sun</item>
+        <item>@drawable/mercury</item>
+        <item>@drawable/venus</item>
+        <item>@drawable/earth</item>
+        <item>@drawable/moon</item>
+        <item>@drawable/mars</item>
+        <item>@drawable/jupiter</item>
+        <item>@drawable/neptune</item>
+    </array>
+    <array name="image_all">
+        <item>@drawable/sun_all</item>
+        <item>@drawable/mercury_all</item>
+        <item>@drawable/venus_all</item>
+        <item>@drawable/earth_all</item>
+        <item>@drawable/moon_all</item>
+        <item>@drawable/mars_all</item>
+        <item>@drawable/jupiter_all</item>
+        <item>@drawable/neptune_all</item>
+    </array>
+    <array name="image_info">
+        <item>@drawable/sun_info</item>
+        <item>@drawable/mercury_info</item>
+        <item>@drawable/venus_info</item>
+        <item>@drawable/earth_info</item>
+        <item>@drawable/moon_info</item>
+        <item>@drawable/mars_info</item>
+        <item>@drawable/jupiter_info</item>
+        <item>@drawable/neptune_info</item>
+    </array>
+
+
+
+</resources>

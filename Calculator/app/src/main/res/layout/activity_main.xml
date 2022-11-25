@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:background="@color/back"
+        android:gravity="bottom"
+>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="@dimen/_35sdp"
+              android:id="@+id/exp"
+              android:layout_marginRight="@dimen/_10sdp"
+              tools:text="333+666"
+              android:textSize="@dimen/_30ssp"
+              android:textColor="@color/white"
+              android:gravity="right"
+              android:singleLine="false"
+    />
+    <TextView android:layout_width="match_parent"
+              android:layout_height="@dimen/_45sdp"
+              android:id="@+id/res"
+              android:layout_marginBottom="@dimen/_10sdp"
+              android:layout_marginRight="@dimen/_10sdp"
+              tools:text="999"
+              android:textSize="@dimen/_40ssp"
+              android:textColor="@color/white"
+              android:gravity="right"
+    />
+    <LinearLayout
+            android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+              android:orientation="horizontal"
+
+    >
+        <Button
+               android:background="@drawable/roundbut"
+                android:layout_marginRight="@dimen/marge"
+               android:layout_marginBottom="@dimen/marge"
+                android:id="@+id/butC"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+               android:text="@string/cla"
+               android:textSize="@dimen/text"
+        />
+        <Button
+                android:background="@drawable/roundbut"
+                android:layout_marginRight="@dimen/marge"
+                android:id="@+id/butDiv"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/div"
+                android:textSize="@dimen/text1"
+                android:textColor="@color/yellow"
+        />
+        <Button
+                android:background="@drawable/roundbut"
+                android:layout_marginRight="@dimen/marge"
+                android:id="@+id/butMul"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/mul"
+                android:textSize="@dimen/text1"
+                android:textColor="@color/yellow"
+        />
+        <Button
+                android:background="@drawable/roundbut"
+                android:id="@+id/butBack"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/back"
+                android:textSize="@dimen/text1"
+                android:textColor="@color/yellow"
+        />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+        <Button
+
+                android:layout_marginBottom="@dimen/marge"
+                android:background="@drawable/roundbut"
+                android:layout_marginRight="@dimen/marge"
+                android:id="@+id/but7"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/seven"
+                android:textSize="@dimen/text"
+        />
+        <Button
+                android:background="@drawable/roundbut"
+                android:layout_marginRight="@dimen/marge"
+                android:id="@+id/but8"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/eight"
+                android:textSize="@dimen/text"
+        />
+        <Button
+                android:background="@drawable/roundbut"
+                android:layout_marginRight="@dimen/marge"
+                android:id="@+id/but9"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/nine"
+                android:textSize="@dimen/text"
+                />
+        <Button
+                android:background="@drawable/roundbut"
+                android:id="@+id/butMin"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/minus"
+                android:textSize="@dimen/text1"
+                android:textColor="@color/yellow"
+        />
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+        <Button
+                android:layout_marginBottom="@dimen/marge"
+                android:background="@drawable/roundbut"
+                android:layout_marginRight="@dimen/marge"
+                android:id="@+id/but4"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/four"
+                android:textSize="@dimen/text"
+        />
+        <Button
+                android:background="@drawable/roundbut"
+                android:layout_marginRight="@dimen/marge"
+                android:id="@+id/but5"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/five"
+                android:textSize="@dimen/text"
+        />
+        <Button
+
+                android:background="@drawable/roundbut"
+                android:layout_marginRight="@dimen/marge"
+                android:id="@+id/but6"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/six"
+                android:textSize="@dimen/text"
+        />
+        <Button
+                android:background="@drawable/roundbut"
+                android:id="@+id/butPlus"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/plus"
+                android:textSize="@dimen/text1"
+                android:textColor="@color/yellow"
+        />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+    >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+        <Button
+
+                android:layout_marginBottom="@dimen/marge"
+                android:background="@drawable/roundbut"
+                android:layout_marginRight="@dimen/marge"
+                android:id="@+id/but1"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/one"
+                android:textSize="@dimen/text"
+        />
+        <Button
+                android:background="@drawable/roundbut"
+                android:layout_marginRight="@dimen/marge"
+                android:id="@+id/but2"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/two"
+                android:textSize="@dimen/text"
+        />
+        <Button
+                android:background="@drawable/roundbut"
+                android:layout_marginRight="@dimen/marge"
+                android:id="@+id/but3"
+                android:layout_width="@dimen/butW"
+                android:layout_height="@dimen/butW"
+                android:text="@string/three"
+                android:textSize="@dimen/text"
+        />
+
+
+    </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+            >
+                <Button
+
+                        android:background="@drawable/roundbut"
+                        android:layout_marginRight="@dimen/marge"
+                        android:id="@+id/butBr"
+                        android:layout_width="@dimen/butW"
+                        android:text="( )"
+                        android:layout_height="@dimen/butW"
+                        android:textSize="@dimen/text"
+                />
+                <Button
+                        android:background="@drawable/roundbut"
+                        android:layout_marginRight="@dimen/marge"
+                        android:id="@+id/but0"
+                        android:layout_width="@dimen/butW"
+                        android:layout_height="@dimen/butW"
+                        android:text="@string/zero"
+                        android:textSize="@dimen/text"
+                />
+                <Button
+                        android:background="@drawable/roundbut"
+                        android:layout_marginRight="@dimen/marge"
+                        android:id="@+id/butDot"
+                        android:layout_width="@dimen/butW"
+                        android:layout_height="@dimen/butW"
+                        android:text="@string/dot"
+                        android:textSize="@dimen/text"
+
+                />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                      android:layout_height="match_parent">
+            <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/butEq"
+                    android:layout_width="@dimen/butW"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/equalbut"
+                    android:text="@string/equal"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text3"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

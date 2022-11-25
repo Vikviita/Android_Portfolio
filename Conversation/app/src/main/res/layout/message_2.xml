@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="@color/grey"
+
+        android:padding="@dimen/_25sdp"
+
+>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+android:background="@drawable/message_shape_2"
+             android:id="@+id/messageL"
+              android:padding="@dimen/_5sdp"
+              tools:text="Hello my Name is "
+              android:textSize="@dimen/_15ssp"
+              android:textColor="@color/black"
+    />
+
+</LinearLayout>
