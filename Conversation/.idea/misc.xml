@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Conversation/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Conversation/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Conversation/app/src/main/res/layout/message.xml" value="0.25" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Conversation/app/src/main/res/layout/message_2.xml" value="0.25" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/Conversation/app/src/main/res/layout/pattern.xml" value="0.25" />
         <entry key="..\:/MyPackage/AllProjects/Labs/JavaProjext/app/src/main/res/drawable/back_chat.xml" value="0.1265" />
         <entry key="..\:/MyPackage/AllProjects/Labs/JavaProjext/app/src/main/res/drawable/chat.xml" value="0.1265" />
         <entry key="..\:/MyPackage/AllProjects/Labs/JavaProjext/app/src/main/res/drawable/chat_shape.xml" value="0.247" />
