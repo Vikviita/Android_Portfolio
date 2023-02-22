@@ -27,9 +27,9 @@ class WheatherAdapter:RecyclerView.Adapter<WheatherAdapter.MyViewHolder>(){
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         with(holder.binding){
             time.text=data[position].time
-            WhImage.setImageResource(data[position].image ?: R.drawable.baseline_ac_unit_24)
-            rainRate.text=data[position].rainRate ?.toString() ?: ""
-            temp.text=data[position].temperature.toString()
+            WhImage.setImageResource(data[position].image ?: R.drawable.icon_snow)
+            rainRate.text=data[position].rainRate
+            temp.text=data[position].temperature
         }
     }
 

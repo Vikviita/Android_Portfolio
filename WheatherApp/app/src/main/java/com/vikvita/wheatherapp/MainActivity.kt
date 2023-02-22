@@ -32,6 +32,7 @@ fun setRecyclerView() {
     binding.apply {
         list.layoutManager = LinearLayoutManager(this@MainActivity, RecyclerView.HORIZONTAL, false)
         list.adapter = adapter
+
     }
 }
     fun fullScreen() {

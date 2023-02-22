@@ -19,14 +19,16 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textColor="@color/white"
-            android:textSize="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp"
             tools:text="12 AM" />
 
-        <ImageView
-            android:id="@+id/WhImage"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+    <ImageView
+        android:id="@+id/WhImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        tools:src="@drawable/icon_sunny" />
 
         <TextView
             android:id="@+id/rainRate"
@@ -34,8 +36,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="@color/white"
-            android:textSize="@dimen/_10sdp"
+            android:textColor="#00E1FF"
+            android:textSize="@dimen/_15sdp"
             tools:text="12 AM" />
 
         <TextView
@@ -45,7 +47,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textColor="@color/white"
-            android:textSize="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
             tools:text="12 AM" />
 
     </LinearLayout>
