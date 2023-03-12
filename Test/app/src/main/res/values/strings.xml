@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Test</string>
-    <string name="try_again">Try Again</string>
-    <string name="failed_to_load_users">Failed to Load Users</string>
-    <string name="no_users">No Users</string>
-    <string name="delete">delete</string>
-    <string name="has_been_deleted">has been deleted</string>
-</resources>
