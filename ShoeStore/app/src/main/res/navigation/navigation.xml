@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+app:startDestination="@id/loginFragment"
+
+   >
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.vikvita.shoestore.screens.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login_screen"
+        >
+        <action
+            android:id="@+id/action_loginFragment_to_welcome_screen"
+            app:destination="@id/welcome_screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcome_screen"
+        android:label="welcome"
+        android:name="com.vikvita.shoestore.screens.welcome.WelcomeFragment"
+        tools:layout="@layout/fragment_welcome_screen"
+        >
+        <action
+            android:id="@+id/action_welcome_screen_to_instruction_screen"
+            app:destination="@id/instruction_screen" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/instruction_screen"
+        android:label="instruction"
+        android:name="com.vikvita.shoestore.screens.instruction.InstructionFragment"
+        tools:layout="@layout/fragment_instruction_screen"
+        >
+        <action
+            android:id="@+id/action_instruction_screen_to_placeholder2"
+            app:destination="@id/list_screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/list_screen"
+        android:label="list"
+        android:name="com.vikvita.shoestore.screens.list.ListFragment"
+        tools:layout="@layout/fragment_list_screen"
+        >
+        <action
+            android:id="@+id/action_placeholder2_to_placeholder3"
+            app:destination="@id/detail_screen" />
+    </fragment>
+    <fragment android:id="@+id/detail_screen"
+        android:name="com.vikvita.shoestore.screens.details.DetailFragment"
+        android:label="detail"
+        tools:layout="@layout/fragment_detail_screen"
+        />
+
+</navigation>
