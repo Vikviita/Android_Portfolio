@@ -14,6 +14,7 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.navigation.fragment.findNavController
 import com.google.android.gms.common.api.ResolvableApiException
@@ -39,7 +40,7 @@ import com.udacity.project4.locationreminders.savereminder.SaveReminderViewModel
 import com.udacity.project4.utils.setDisplayHomeAsUpEnabled
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
-class SelectLocationFragmet:BaseFragment() ,OnMapReadyCallback{
+class SelectLocationFragmet:BaseFragment() {
     override val _viewModel:SaveReminderViewModel by sharedViewModel()
     private lateinit var binding:FragmentSelectLocationBinding
     private lateinit var map: GoogleMap
@@ -133,9 +134,14 @@ class SelectLocationFragmet:BaseFragment() ,OnMapReadyCallback{
                 this.requireView(),
                 R.string.location_required_error, Snackbar.LENGTH_INDEFINITE
             ).setAction(android.R.string.ok) {
-                requestForPermissions()
+               if(allPermissionsApproved()){
+                   checkDeviceLocationSettingsAndFindCurrentLocation()
+               }
+                else{
+                requestForPermissions()}
             }.show()
         }
+
 
 
     }
@@ -205,23 +211,27 @@ class SelectLocationFragmet:BaseFragment() ,OnMapReadyCallback{
 
 
     private fun onLocationSelected(latlng:LatLng?=null,poi:PointOfInterest?=null) {
-        _viewModel.latitude.value=(latlng?.latitude)?: (poi?.latLng?.latitude )
-        _viewModel.longitude.value=(latlng?.longitude)?: (poi?.latLng?.longitude )
+        if(allPermissionsApproved()) {
+            _viewModel.latitude.value = (latlng?.latitude) ?: (poi?.latLng?.latitude)
+            _viewModel.longitude.value = (latlng?.longitude) ?: (poi?.latLng?.longitude)
 
-        if(latlng==null){
-            _viewModel.reminderSelectedLocationStr.value=poi?.name
+            if (latlng == null) {
+                _viewModel.reminderSelectedLocationStr.value = poi?.name
+            } else if (poi == null) {
+                _viewModel.reminderSelectedLocationStr.value =
+                    "(lat:${latlng.latitude},\n long:${latlng.longitude})"
+            }
+
+
+
+
+
+            findNavController().popBackStack()
+
         }
-        else if(poi==null){
-            _viewModel.reminderSelectedLocationStr.value="(lat:${latlng.latitude},\n long:${latlng.longitude})"
+        else{
+            Toast.makeText(context, "You need to approve location permission", Toast.LENGTH_SHORT).show()
         }
-
-
-
-
-
-        findNavController().popBackStack()
-
-
 
 
 
@@ -275,15 +285,12 @@ class SelectLocationFragmet:BaseFragment() ,OnMapReadyCallback{
         if (allPermissionsApproved()) return
         var arrayOfPermission = arrayOf(Manifest.permission.ACCESS_FINE_LOCATION)
         var resultCode = REQUEST_FOREGROUND_ONLY_PERMISSION
-        ActivityCompat.requestPermissions(
-            requireActivity(),
+       requestPermissions(
             arrayOfPermission,
             resultCode
         )
 
     }
 
-    override fun onMapReady(p0: GoogleMap) {
-        TODO("Not yet implemented")
-    }
+
 }

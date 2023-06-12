@@ -72,7 +72,7 @@ class SaveReminderFragment : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-       requestForPermissions()
+
 
         binding.lifecycleOwner = this
         binding.selectLocation.setOnClickListener {
@@ -98,7 +98,7 @@ class SaveReminderFragment : BaseFragment() {
             checkPermisiionAndCreateGeofence()
 
 
-            _viewModel.validateAndSaveReminder(reminderDataItem)
+
 
 
 
@@ -124,6 +124,7 @@ class SaveReminderFragment : BaseFragment() {
             .build()
         if(ActivityCompat.checkSelfPermission(requireContext(),Manifest.permission.ACCESS_FINE_LOCATION)==PackageManager.PERMISSION_GRANTED)
         {geofencingClient.addGeofences(geofenceRequest,geofencePendingIntent)}
+        _viewModel.validateAndSaveReminder(reminderDataItem)
 
 
     }
