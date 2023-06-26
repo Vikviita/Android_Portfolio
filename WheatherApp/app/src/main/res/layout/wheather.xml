@@ -4,11 +4,11 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="@dimen/_50sdp"
-        android:layout_height="@dimen/_100sdp"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
         android:background="@drawable/wheather_shape"
         android:orientation="vertical"
-    android:layout_marginStart="@dimen/_13sdp"
+    android:layout_marginStart="13dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -19,8 +19,8 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textColor="@color/white"
-            android:textSize="@dimen/_12sdp"
-            tools:text="12 AM" />
+            android:textSize="12sp"
+            tools:text="01:00"/>
 
     <ImageView
         android:id="@+id/WhImage"
@@ -37,7 +37,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textColor="#00E1FF"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="15sp"
             tools:text="12 AM" />
 
         <TextView
@@ -47,7 +47,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textColor="@color/white"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="15sp"
             tools:text="12 AM" />
 
     </LinearLayout>

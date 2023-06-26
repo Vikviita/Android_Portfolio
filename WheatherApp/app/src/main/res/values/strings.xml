@@ -2,6 +2,14 @@
     <string name="app_name">WheatheAPP</string>
     <string name="today">Today</string>
     <string name="week">Week</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_map_api_key">AIzaSyBI9eWmcxQ4t55vXSGdl0Q1xpW58uPls7E</string>
+    <string name="do_you_want_save_this_location">Do you want to choose this location\n</string>
+    <string name="location_required_error">you need approve permission to find you\n</string>
+    <string name="location">Location:</string>
+    <string name="date">Date:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="rain_rate">Rain Rate</string>
 </resources>
