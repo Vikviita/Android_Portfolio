@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="halfBlack">#80000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ColorPrimaryDark">#FFFFFF</color>
+    <color name="ColorPrimary">#3364E0</color>
+    <color name="bread_color">#FFF2D2</color>
+    <color name="fast_food_color">#FFEBE0</color>
+    <color name="asia_cuisine_color">#D8F5F3</color>
+    <color name="soup_color">#EFF5CF</color>
+    <color name="basket_counter_color">#EFEEEC</color>
+
+
+    <color name="bottom_checked_color">#3364E0</color>
+    <color name="bottom_unchecked_color">#A5A9B2</color>
+
+
+
+</resources>

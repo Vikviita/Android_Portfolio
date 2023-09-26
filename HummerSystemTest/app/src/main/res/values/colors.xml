@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="back_ground_chip_color">#33FD3A69</color>
+    <color name="chip_text_color">#C3C4C9</color>
+    <color name="chip_text_color_cheked">#FD3A69</color>
+
+
+    <color name="background_screen_color">#FBFBFB</color>
+    <color name="background_screen_stroke_color">#F3F5F9</color>
+
+
+    <color name="bottom_bar_Color">#F0F0F0</color>
+
+
+    <color name="description_text_color">#AAAAAD</color>
+
+    <color name="price_text_color">#FD3A69</color>
+</resources>

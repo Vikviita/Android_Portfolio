@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+
+app:startDestination="@id/fragmentMain"
+    >
+
+
+<fragment
+    android:id="@+id/fragmentMain"
+    android:name="com.vikvita.testexercise.screens.mainScreen.MainFragment"
+    tools:layout="@layout/fragment_main"
+    >
+    <action
+        android:id="@+id/action_fragmentMain_to_categoryFragment"
+        app:destination="@id/categoryFragment"/>
+    <action
+        android:id="@+id/action_fragmentMain_to_basketFragment"
+        app:destination="@id/basketFragment" />
+</fragment>
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.vikvita.testexercise.screens.categoryScreen.CategoryFragment"
+        android:label="CategoryFragment"
+        tools:layout="@layout/fragment_category"
+
+
+        >
+
+
+        <argument
+            android:name="title"
+            app:argType="string"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.vikvita.testexercise.screens.BasketScreen.BasketFragment"
+        android:label="BasketFragment"
+        tools:layout="@layout/fragment_bag"
+        >
+
+
+    </fragment>
+
+</navigation>

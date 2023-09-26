@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="@dimen/bigPadding"
+    android:layout_margin="@dimen/mediumPadding"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/basketItemLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="H,0.2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="3"
+                android:background="@drawable/basket_counter_shape"
+                android:layout_margin="@dimen/smallPadding"
+                >
+                <ImageView
+                    android:id="@+id/pic_basket"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/smallPadding"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:paddingStart="@dimen/smallPadding"
+                >
+                <TextView
+                    android:id="@+id/basket_name_of_dish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textSizeToolBar"
+                    android:textColor="@color/black"
+                    tools:text="Hello World"
+                    android:fontFamily="@font/sf_pro_display_medium"
+
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                <TextView
+                    android:id="@+id/basket_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textSizeCommonUsed"
+                    android:fontFamily="@font/sf_pro_display_regular"
+                    android:textColor="@color/black"
+                    tools:text="12 asd fa "
+                    />
+                    <FrameLayout
+                        android:layout_width="2dp"
+                        android:layout_height="2dp"
+                        android:layout_margin="7dp"
+                        android:background="@drawable/dot_shape"
+                        android:layout_gravity="center"
+                         />
+
+                    <TextView
+                        android:id="@+id/basket_weight"
+                        android:paddingStart="@dimen/mediumPadding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textSizeCommonUsed"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:textColor="@color/halfBlack"
+                        tools:text="12 asd fa "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:background="@drawable/basket_counter_shape"
+            android:layout_margin="@dimen/bigPadding"
+            >
+
+<ImageButton
+    android:id="@+id/basket_delete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/minus"
+    android:background="?android:attr/selectableItemBackground"
+    />
+            <TextView
+                android:id="@+id/basket_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:textSize="@dimen/textSizeCommonUsed"
+                tools:text="1"
+                android:paddingStart="@dimen/mediumPadding"
+                android:paddingEnd="@dimen/mediumPadding"
+                />
+            <ImageButton
+                android:id="@+id/basket_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/plus"
+                android:background="?android:attr/selectableItemBackground"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

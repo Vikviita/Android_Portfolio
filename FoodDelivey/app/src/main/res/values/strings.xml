@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TestExercise</string>
+    <string name="title_dynamicfeature">Module Title</string>
+    <string name="all_menu">Всё меню</string>
+    <string name="Salad">Салат</string>
+    <string name="with_rise">С Рисом</string>
+    <string name="with_fish">С Рыбой</string>
+    <string name="tashkent">Ташкент</string>
+    <string name="_12_2023">12 августа 2023</string>
+<string name="ruble">₽</string>
+    <string name="add_to_basket">Добавить в корзину</string>
+
+</resources>

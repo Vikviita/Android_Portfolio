@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeToolBar">18sp</dimen>
+    <dimen name="textSizeBig">20sp</dimen>
+    <dimen name="textSizeMedium">16sp</dimen>
+    <dimen name="textSizeCommonUsed">14sp</dimen>
+    <dimen name="textSizeBottomBar">10sp</dimen>
+
+    <dimen name="smallPadding">4dp</dimen>
+    <dimen name="mediumPadding">8dp</dimen>
+    <dimen name="bigPadding">16dp</dimen>
+
+
+
+    <dimen name="all_category_item_size">109dp</dimen>
+    <dimen name="main_item_width_size">148dp</dimen>
+
+
+
+</resources>

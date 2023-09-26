@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolBar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="H,0.15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbarSize="0dp"
+        app:layout_constraintDimensionRatio="H,0.2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolBar"
+        android:padding="@dimen/mediumPadding"
+        >
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:selectionRequired="true"
+            app:singleSelection="true"
+            app:checkedChip="@id/chip_all"
+
+
+            >
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/mediumPadding"
+                android:text="@string/all_menu"
+                android:textColor="@color/white"
+                app:chipCornerRadius="10dp"
+                android:textSize="@dimen/textSizeCommonUsed"
+                android:fontFamily="@font/sf_pro_display_regular"
+                app:chipStrokeColor="@color/white"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                style="@style/CustomChipChoice"
+                />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_salad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/mediumPadding"
+                android:text="@string/Salad"
+                android:textColor="@color/white"
+                app:chipCornerRadius="10dp"
+                app:chipStrokeColor="@color/white"
+                android:textSize="@dimen/textSizeCommonUsed"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                style="@style/CustomChipChoice"
+                />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_rise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/mediumPadding"
+                android:text="@string/with_rise"
+                android:textColor="@color/white"
+                app:chipCornerRadius="10dp"
+                app:chipStrokeColor="@color/white"
+                android:textSize="@dimen/textSizeCommonUsed"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                style="@style/CustomChipChoice"
+                />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_fish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/mediumPadding"
+                android:text="@string/with_fish"
+                android:textColor="@color/white"
+                app:chipCornerRadius="10dp"
+                app:chipStrokeColor="@color/white"
+                android:textSize="@dimen/textSizeCommonUsed"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                style="@style/CustomChipChoice"
+                />
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </HorizontalScrollView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/category_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+
+
+        />
+    
+
+</androidx.constraintlayout.widget.ConstraintLayout>

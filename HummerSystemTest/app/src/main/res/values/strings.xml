@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FoodDelivery</string>
+    <string name="pizza_chip">Пицца</string>
+    <string name="combo_chip">Комбо</string>
+    <string name="menu_menu">Меню</string>
+    <string name="profile_menu">Профиль</string>
+    <string name="basket_menu">Корзина</string>
+    <string name="deserts_chip">Десерты</string>
+    <string name="drinks_chip">Напитки</string>
+</resources>

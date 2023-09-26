@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/alert_picture"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/bigPadding"
+        android:background="@drawable/basket_counter_shape"
+        android:paddingStart="@dimen/bigPadding"
+        android:paddingTop="@dimen/bigPadding"
+        app:layout_constraintDimensionRatio="H,0.74"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/rice_with_vegetables_1" />
+    <ImageButton
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/alert_picture"
+        app:layout_constraintTop_toTopOf="@+id/alert_picture"
+        android:layout_margin="@dimen/mediumPadding"
+        android:background="@drawable/like_and_close_but_shape"
+        android:src="@drawable/cross"
+        android:padding="@dimen/mediumPadding"
+
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/close_button"
+        app:layout_constraintTop_toTopOf="@+id/alert_picture"
+        android:layout_margin="@dimen/mediumPadding"
+        android:background="@drawable/like_and_close_but_shape"
+        android:src="@drawable/like"
+        android:padding="@dimen/mediumPadding"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/bigPadding"
+        android:fontFamily="@font/sf_pro_display_medium"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSizeMedium"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintTop_toBottomOf="@+id/alert_picture"
+        tools:text="Рыба с овощами и рисом" />
+
+
+    <FrameLayout
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/dot_shape"
+        app:layout_constraintBottom_toBottomOf="@+id/price_field"
+        app:layout_constraintDimensionRatio="H,1"
+        app:layout_constraintEnd_toStartOf="@+id/weight_field"
+        app:layout_constraintStart_toEndOf="@+id/price_field"
+        app:layout_constraintTop_toTopOf="@+id/weight_field" />
+
+    <TextView
+        android:id="@+id/price_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/smallPadding"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSizeCommonUsed"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="799" />
+
+
+    <TextView
+        android:id="@+id/weight_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/bigPadding"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:textColor="@color/halfBlack"
+        android:textSize="@dimen/textSizeCommonUsed"
+        app:layout_constraintBottom_toBottomOf="@+id/price_field"
+        app:layout_constraintStart_toEndOf="@+id/price_field"
+        app:layout_constraintTop_toTopOf="@+id/price_field"
+        tools:text="799" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/bigPadding"
+        app:layout_constraintBottom_toTopOf="@+id/add_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price_field"
+        app:layout_constraintVertical_bias="0.0"
+        android:nestedScrollingEnabled="true"
+        android:clipToPadding="true"
+        >
+
+        <TextView
+            android:id="@+id/description_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:nestedScrollingEnabled="true"
+            android:lines="5"
+
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textColor="@color/halfBlack"
+
+            android:textSize="@dimen/textSizeCommonUsed"
+            tools:text="adsgslmksldmsdlfkmsldfmlskmdfksmdlfkmsldkf" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="@dimen/bigPadding"
+        android:textColor="@color/white"
+        android:fontFamily="@font/sf_pro_display_medium"
+        android:textSize="@dimen/textSizeMedium"
+        android:text="@string/add_to_basket"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
