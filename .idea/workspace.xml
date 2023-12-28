@@ -4,35 +4,30 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b209eea6-8923-4c7b-8c54-13489c2f2958" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Food1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Food1/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Food1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Food2/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Food2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food2/app/src/main/java/com/vikvita/testexercise/MyApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Food2/app/src/main/java/com/vikvita/testexercise/MyApp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food2/app/src/main/java/com/vikvita/testexercise/screens/mainScreen/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Food2/app/src/main/java/com/vikvita/testexercise/screens/mainScreen/MainFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WheatherApp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WheatherApp/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WheatherApp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WheatherApp/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WheatherApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WheatherApp/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b209eea6-8923-4c7b-8c54-13489c2f2958" name="Changes" comment="add new">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Vvhcuzg1wZWuMTAWPpU9kfzSo7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,6 +37,18 @@
       <option name="presentableId" value="Default" />
       <updated>1695722543816</updated>
     </task>
+    <task id="LOCAL-00001" summary="add new">
+      <created>1695722846145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695722846145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add new" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new" />
   </component>
 </project>

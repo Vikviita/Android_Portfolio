@@ -1,0 +1,42 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/back.xml" value="0.2545" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/borders.xml" value="0.2545" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/borders_1.xml" value="0.1865" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/borders_2.xml" value="0.2555" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/borders_3.xml" value="0.2555" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/container.xml" value="0.2545" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/ellipse_2.xml" value="0.2555" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/tac.xml" value="0.2555" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/tacm.xml" value="0.1865" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/tacs.xml" value="0.2555" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/tic.xml" value="0.2555" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/ticm.xml" value="0.1865" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/tics.xml" value="0.2555" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/timer.xml" value="0.2545" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/drawable/vector_2.xml" value="0.2555" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/layout-large/activity_main.xml" value="0.128" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/layout-large/activity_main2.xml" value="0.20521590423257802" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/layout-large/activity_win.xml" value="0.20521590423257802" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/layout-small/activity_main.xml" value="1.2447916666666667" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/layout/activity_main2.xml" value="0.20521590423257802" />
+        <entry key="..\:/MyPackage/AllProjects/Android/A1/tictactoe/app/src/main/res/layout/activity_win.xml" value="0.21052631578947367" />
+        <entry key="..\:/MyPackage/AllProjects/Android/MainA/tictactoe/app/src/main/res/layout/activity_main.xml" value="0.20521590423257802" />
+        <entry key="..\:/MyPackage/AllProjects/Android/MainA/tictactoe/app/src/main/res/layout/activity_main2.xml" value="0.20521590423257802" />
+        <entry key="..\:/MyPackage/AllProjects/Android/MainA/tictactoe/app/src/main/res/layout/activity_win.xml" value="0.20521590423257802" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
